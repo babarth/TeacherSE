@@ -10,7 +10,7 @@ This application is aimed towards children in order to provide them with an easy
 
 #Installation
 
-Download the apk file onto an Android device (prefferably with Lolliop OS)
+Download the apk file onto an Android device (prefferably with Lolliop OS) or download the code into Android Studio.
 
 #Tests
 
