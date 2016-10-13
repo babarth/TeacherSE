@@ -1,0 +1,79 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="technologies.babarth.teacher.MainContentFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_marginTop="32dp"
+        android:background="@drawable/teacher_splash"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior"
+        tools:context="technologies.babarth.teacher.Main2Activity"
+        tools:showIn="@layout/app_bar_main2">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="GAMES"
+                android:id="@+id/gametitle"
+                android:layout_marginTop="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="85dp"
+                android:textColor="#ffffff" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Grammar"
+                android:id="@+id/game1"
+                android:background="@android:color/transparent"
+                android:textColor="#ffffff"
+                android:textSize="45dp"
+                android:layout_marginTop="25dp"
+                android:layout_below="@+id/gametitle"
+                android:layout_alignStart="@+id/game2" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Spelling"
+                android:id="@+id/game2"
+                android:background="@android:color/transparent"
+                android:textColor="#ffffff"
+                android:textSize="45dp"
+                android:layout_below="@+id/game1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="-Math"
+                android:id="@+id/game3"
+                android:background="@android:color/transparent"
+                android:textColor="#ffffff"
+                android:textSize="45dp"
+                android:layout_below="@+id/game2"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="25dp"
+                android:layout_alignStart="@+id/game2"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/teacher_splash"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="technologies.babarth.teacher.Math"
+    tools:showIn="@layout/activity_math">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="MATH"
+            android:id="@+id/math"
+            android:layout_marginTop="70dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:textSize="65dp"
+            android:textColor="#ffffff" />
+
+
+
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="-Check"
+            android:id="@+id/check"
+            android:background="@android:color/transparent"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_marginTop="32dp"
+            android:layout_below="@+id/operator"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:text="Difficulty: "
+            android:id="@+id/difficulty"
+            android:textColor="@android:color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Help"
+            android:gravity="left"
+            android:textColor="@android:color/white"
+            android:textSize="25dp"
+            android:id="@+id/help"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:background="@android:color/transparent"
+            android:layout_below="@+id/difficulty"
+            android:layout_alignParentStart="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ADD"
+            android:id="@+id/add"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_below="@+id/math"
+            android:layout_toEndOf="@+id/difficulty" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" | "
+            android:id="@+id/place1"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_below="@+id/math"
+            android:layout_toEndOf="@+id/add" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUB"
+            android:id="@+id/sub"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_below="@+id/math"
+            android:layout_toEndOf="@+id/place1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" | "
+            android:id="@+id/place2"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_below="@+id/math"
+            android:layout_toEndOf="@+id/sub"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MUL"
+            android:id="@+id/mul"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_below="@+id/math"
+            android:layout_toEndOf="@+id/place2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" | "
+            android:id="@+id/place3"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_below="@+id/math"
+            android:layout_toEndOf="@+id/mul"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="DIV"
+            android:id="@+id/div"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_below="@+id/math"
+            android:layout_toEndOf="@+id/place3"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:id="@+id/firstnum"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="70dp"
+            android:layout_below="@+id/add"
+            android:layout_toEndOf="@+id/difficulty"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:id="@+id/operator"
+            android:textColor="#ffffff"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="35dp"
+            android:layout_marginTop="30dp"
+            android:layout_below="@+id/add"
+            android:layout_toEndOf="@+id/firstnum"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:text="5"
+            android:id="@+id/secondnum"
+            android:layout_marginTop="30dp"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:layout_below="@+id/add"
+            android:layout_toEndOf="@+id/operator"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="="
+            android:id="@+id/equals"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginTop="30dp"
+            android:textSize="35dp"
+            android:layout_below="@+id/add"
+            android:layout_toEndOf="@+id/secondnum"/>
+
+        <EditText
+            android:layout_width="75dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/input"
+            android:textColor="#ffffff"
+            android:textSize="35dp"
+            android:maxLines="1"
+            android:lines="1"
+            android:maxLength="15"
+            android:layout_marginLeft="15dp"
+            android:gravity="center"
+            android:layout_below="@+id/add"
+            android:layout_toEndOf="@+id/equals"
+            android:imeOptions="actionDone"
+            android:inputType="number"
+            android:layout_marginTop="15dp" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

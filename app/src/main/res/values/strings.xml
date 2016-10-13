@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Teacher</string>
+    <string name="title_name">TEACHER</string>
+    <string name="title_activity_main2"></string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_game_options">GameOptions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_spelling">Spelling</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_math">Math</string>
+    <string name="title_activity_grammar">Grammar</string>
+</resources>
